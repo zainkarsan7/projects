@@ -76,6 +76,7 @@ jobs:
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
@@ -103,3 +104,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
