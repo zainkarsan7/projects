@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Liquid Metal Printing
-description: with background image
+description: Metal AM at Self Assembly Lab
 img: assets/img/lmp/1.png
 importance: 1
 category: work
