@@ -483,7 +483,7 @@ ninja.data = [{
               window.location.href = "/projects/projects/lathe/";
             },},{id: "projects-liquid-metal-printing",
           title: 'Liquid Metal Printing',
-          description: "with background image",
+          description: "Metal AM at Self Assembly Lab",
           section: "Projects",handler: () => {
               window.location.href = "/projects/projects/lmp/";
             },},{id: "projects-project-9",
