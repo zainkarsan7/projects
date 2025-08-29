@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: HTD(a)A # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+permalink: https://zainkarsan7.github.io/htdaa
 lsi: false # produce an index for related posts
 
 # Pagination
@@ -143,11 +143,11 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
-    output: true
+    output: false
   projects:
     output: true
 
@@ -186,6 +186,9 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/dropdown.md
+  - _pages/books.md
+  - _pages/people.md
   - purgecss.config.js
   - README.md
   - readme_preview/

@@ -1,45 +1,34 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: TinyZ
+description: A desktop milling machine, developed during the pandemic to support remote making at MIT School of Architecture
+img: assets/img/tinyz/Pumpkin.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/tinyz/trailer_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>
+
+This machine was designed around low cost parts and sized in order to maximize working envelope, thereby permitting the greatest flexibility in machining. The choice to use predominantly aluminum profile made assembly very easy, and the machine extremely modular. 
+A studio course was developed around this machine, in which students developed their own material processes by hacking the machine. More information on this course can be found <a href="https://www.w3schools.com">here</a>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/tinyz/kit_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        Small batch production of the parts of the kit demonstrate the various capacities at the architecture shops, waterjetting, precision machining, and large format routing.
     </div>
 </div>
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
 <div class="caption">
     This image can also have a caption. It's like magic.
 </div>
@@ -50,12 +39,10 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+    {% include video.liquid path="assets/img/tinyz/trailer_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}    
 </div>
+</div>
+
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
