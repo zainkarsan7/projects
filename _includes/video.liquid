@@ -23,6 +23,23 @@
       {% if include['min-height'] %}
         min-height="{{ include.min-height }}"
       {% endif %}
+      {% if include.autoplay == true or include.autoplay == 'true' %}
+        autoplay
+      {% endif %}
+      {% if include.controls == true or include.controls == 'true' %}
+        controls
+      {% endif %}
+      {% if include.loop == true or include.loop == 'true' %}
+        loop
+      {% endif %}
+      {% if include.muted == true or include.muted == 'true' %}
+        muted
+      {% endif %}
+      {% if include.playsinline == true or include.playsinline == 'true' %}
+        playsinline
+      {% endif %}
+
+
       {% if include['max-width'] %}
         max-width="{{ include.max-width }}"
       {% endif %}
