@@ -413,6 +413,11 @@ ninja.data = [{
           description: "4.453 Creative Machine Learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/projects/deskmate.html";
+            },},{id: "projects-flexure-tester",
+          title: 'Flexure Tester',
+          description: "2.77 Fundamentals of Product Design",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/projects/flextester.html";
             },},{id: "projects-lathe",
           title: 'Lathe',
           description: "2.72 Precision Machine Design",
