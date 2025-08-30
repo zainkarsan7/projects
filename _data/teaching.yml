@@ -1,0 +1,11 @@
+- title: "Project Alpha"
+  year: 2023
+  description: "Demo project about machine learning."
+  tags: ["ML", "demo"]
+  extra: "Collaborators: Alice, Bob"
+
+- title: "Project Beta"
+  year: 2024
+  description: "Another example with a longer explanation."
+  tags: ["CV", "web"]
+  extra: "Funded by XYZ grant"

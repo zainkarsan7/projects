@@ -5,7 +5,7 @@ description: Metal AM at Self Assembly Lab
 img: assets/img/lmp/1.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 This work was developed as a student researcher at the Self Assembly Lab as part of a dual degree in computational design and mechanical engineering. Liquid Metal Printing is a rapid, low cost, large scale and low resolution printing method involving rapid injection of molten metal into a bed of glass bead along a predetermined path. This work was done in collaboration with Kimball Kaiser, and focues on transitioning the existing machine which could melt and print with pewter, into a machine that could melt and print aluminum.
