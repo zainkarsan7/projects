@@ -1,53 +1,66 @@
 ---
 layout: page
 title: Robotic Fabrication
-description: 4.453 Creative Machine Learning 
-img: assets/img/rob_fab/rob_fab_banner.JPG
-importance: 2
+importance: 3
 category: work
-giscus_comments: true
+year: 2020
+description: "Introduction to robotic fabrication"
+tags: ["Robots", "KRL"]
 ---
 
 <div class="row">
-{% include video.liquid path="assets/img/deskmate/deskmate_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+{% include figure.liquid loading="eager" path="assets/img/rob_fab/rob_fab_banner.JPG" title="axo" class="img-fluid rounded z-depth-1" %}
 </div>
 
-This project involved developing a simple drawing machine and a vision based ML pipeline to actuate the machine in response to user input. We typically interface with generative AI and its output through software, without a corresponding physical embodiement. This project proposed to embed an intelligent drawing assistant inside a commonly used tool for a designer, trace paper.  
+This course was developed to communicate the essentials of working with a kuka robot, specifically the low payload Agilus robots at the fabrication shops at MIT. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/deskmate/axon.jpg" title="axo" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/img/rob_fab/draw_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-           The drawing machine uses a roll of trace paper as the canvas with the possibility to draw continuously along the scroll up to 50 yards. 
-    </div>
-</div>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/deskmate/hand_tracking.jpg" title="axo" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-           Initially, a hand tracking setup was implemented to test the machine response to user interaction.
-    </div>
-</div>
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/deskmate/latent_walk.gif" title="axo" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        Two models were used, the first shown here is a VAE encoding RGB images into a high dimensional latent space. Here are some samples from quaternion slerp-ing through the latent space.  
+           The course proceeded over a semester, beginning with online programming of a robot, teaching points and familiarizing students with LIN, CIRC, spline and PTP motions. 
     </div>
 </div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/deskmate/rnn_latent.png" title="axo" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/img/rob_fab/extcp_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        Another approach involved using vector based data in an RNN model, as implemented in Sketch-RNN. 
+           Setting up tools, both end of arm and external were investigated, students programming with each, using simple pens and foam cutting.
+    </div>
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/rob_fab/io_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+           The students learned about interfacing with the digital and analog IO, the basics of work visual, programming in KRL, and producing circuits to interface with custom sensors and tooling
+    </div>
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/rob_fab/mill_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+           During the last module, students practiced with multi-axis milling in robot-master, a plugin for MasterCAM that supports path planning for custom robot cells. 
+    </div>
+</div>
+
+During the last half of the semester, students developed their own processes, hacking existing tools and augmenting the robot with new capabilities.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/rob_fab/plastic_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/rob_fab/sand_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/rob_fab/saw_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 

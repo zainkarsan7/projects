@@ -50,14 +50,35 @@ nav_order: 6
                 {% endfor %}
               {% endif %}
             </td>
-            <td>
+            <td class="text-center">
               {% if p.url %}
                 <a class="btn btn-sm btn-outline-primary" href="{{ p.url | relative_url }}">View</a>
+              {% elsif p.extra %}
+                 <button class="btn btn-sm btn-outline-primary" 
+                      type="button" 
+                      data-toggle="collapse" 
+                      data-target="#collapse{{ i }}" 
+                      aria-expanded="false" 
+                      aria-controls="collapse{{ i }}">
+                Show
+              </button>
               {% endif %}
             </td>
-          </tr>
+            </tr>
+            {% if p.extra %}
+            <tr class="collapse-row">
+            <td colspan="5" class="p-0 border-0">
+              <div class="collapse" id="collapse{{ i }}">
+                <div class="card card-body">
+                  
+                    <p><strong>Extra:</strong> {{ p.extra }}</p>
+                  
+                </div>
+              </div>
+            </td>
+            </tr>
+            {% endif %} 
         {% endfor %}
-        
         </tbody>
       </table>
     </div>

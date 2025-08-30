@@ -1,13 +1,11 @@
 ---
 layout: page
 title: In House
-img: assets/img/flex_tester/side.jpg
 importance: 3
 category: work
-year: 2025
-description: "Demo project about machine learning."
-tags: ["ML", "demo"]
-extra: "Collaborators: Alice, Bob"
+year: 2021
+description: "A digital fabrication studio during the pandemic"
+tags: ["Machine Design", "Remote Making"]
 ---
 
 <div class="row">

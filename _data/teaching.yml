@@ -1,11 +1,23 @@
-- title: "Project Alpha"
-  year: 2023
-  description: "Demo project about machine learning."
-  tags: ["ML", "demo"]
-  extra: "Collaborators: Alice, Bob"
+- title: "How to Make (almost) Anything"
+  year: 2019
+  description: "Tour through fabrication, led by Niel Gershenfeld"
+  tags: ["fablab", "htm(a)a"]
+  extra: "Provides practical hands-on introduction to various digital fabrication methods from electronic production to large format machining"
 
-- title: "Project Beta"
-  year: 2024
-  description: "Another example with a longer explanation."
-  tags: ["CV", "web"]
-  extra: "Funded by XYZ grant"
+- title: "Introduction to Design Techniques and Technologies"
+  year: 2019
+  description: "Undergraduate Studio with Axel Kilian"
+  tags: ["Design","Arduino","Fabrication"]
+  extra: "Introduces the tools, techniques and technologies of design across a range of projects in a studio environment. Explores concepts related to form, function, materials, tools, and physical environments through project-based exercises. Develops familiarity with design process, critical observation, and the translation of design concepts into digital and physical reality"
+
+- title: "How to Design"
+  year: 2020
+  description: "Undergraduate Studio with Peter Pettigrew"
+  tags: ["fablab", "htm(a)a"]
+  extra: "Introduces fundamental design principles as a way to demystify design and provide a basic introduction to all aspects of the process. Stimulates creativity, abstract thinking, representation, iteration, and design development. Equips students with skills to have more effective communication with designers, and develops their ability to apply the foundations of design to any discipline."
+
+- title: "Remote Making Fabrication Workshop"
+  year: 2021
+  description: "Machine building workshop"
+  tags: ["fablab", "remote making"]
+  extra: "This workshop is designed to communicate fundamental concepts of machine building and CNC workflow to enable students to move fluidly between digital designs and physical material."
