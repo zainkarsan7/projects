@@ -8,51 +8,49 @@ description: "A digital fabrication studio during the pandemic"
 tags: ["Machine Design", "Remote Making"]
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/flex_tester/metrology.jpg" title="metro" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-This work was developed with a team of 4 for a course called Fundamentals of Product Design taught by Marty Culpepper at MIT. This course designing, fabricating and validating a product of our own design. Our group chose to develop a flexure characterization machine, capable of characterizing their stiffness in 2 axes. 
-
-Some of the functional requirements for the load cell are listed here:
-<div style="margin-top:1em;" >
-<iframe src="{{ 'assets/img/flex_tester/FR_table.pdf' | relative_url }}" 
-        width="100%" style="border: none;" style="background-color: #ffffff;">
-</iframe>
-</div>
+The circumstances of the pandemic resulted in the closure of collective maker spaces and university fab labs. This disruption to machine access had consequences for design studio curricula which shifted to online and digital formats. In response, an experimental studio centered on digital fabrication was offered in the Spring of 2021 at MIT. The prompt of the studio was simple, to design and build an installation with spatial implications, wherever and with whatever material was at hand. To support students to re-engage physical making, a desktop milling machine was developed called the [TinyZ]({{ "/projects/tinyz/" | relative_url }}).
+Due to its small scale and low cost, the TinyZ could be distributed as a kit to each participant in the studio. The TinyZ Kit was largely composed of standard parts and repetitive assemblies, making the machine itself extremely modular and easily reconfi gurable to adapt to different material processes and projects throughout the semester. 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/flex_tester/metrology_side.jpg" title="metrology diagram" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/inhouse/grow_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        Our metrology frame involves two load cells and dial indicators from which we extract stiffness readings. The metrology frame id decoupled from the machine stiffness by two compliant mechanisms.  
+    <div class="col-sm-4 mt-3 mt-md-0">
+        This student used a clay extruder hack to print biophilic material. She used her prints as a planting medium, tending her installation over the semester. 
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/flex_tester/transmission.jpg" title="metrology diagram" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/inhouse/4axis_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %} 
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        We designed a worm gear to connect a hand crank to a vertical leadscrew. The leadscrew moves a stage that can put up to 10kN on a specimen with very little torque on the handcrank. 
+    <div class="col-sm-4 mt-3 mt-md-0">
+        This student used a 4 axis hack of the machine to process branches from her back yard, building an assembly with carefully machined joints.  
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/inhouse/morefood_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %} 
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        This student used his machine to extrude a carefully considered selection of environmentally conscious foods, printing directly over his frying pan. 
     </div>
 </div>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-   <div class="column">
-    <div>
-        {% include figure.liquid loading="eager" path="assets/img/flex_tester/z_dir.jpg" title="z_dir" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/inhouse/dragknife_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %} 
     </div>
-    <div>
-        {% include figure.liquid loading="eager" path="assets/img/flex_tester/x_dir.jpg" title="x_dir" class="img-fluid rounded z-depth-1" %} 
+    <div class="col-sm-4 mt-3 mt-md-0">
+        This student developed a vacuum hold down system to cut fabric with a dragknife.  
     </div>
+</div>
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/inhouse/remelt_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %} 
     </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-       Simulations in solidworks were undertaken to verify if our compliant mechanisms would sufficiently decouple the metrology frame from the machine. 
+    <div class="col-sm-4 mt-3 mt-md-0">
+        This student used a soldering iron to melt patterns into machineable wax.  
     </div>
 </div>
 
