@@ -1,61 +1,100 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Zain Karsan",
+    "label": "Doctoral Researcher",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "karsan@ibi.baug.ethz.ch",
+    "phone": "076 630 37 24",
+    "url": "zainkarsan7.github.io/projects",
+    "summary": "Trained in mechanical engineering and architecture, designing machines and processes for construction and manufacturing",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Albisriederstrasse 106",
+      "postalCode": "8003",
+      "city": "Zurich",
+      "countryCode": "Switzerland",
+      "region": "Zurich"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Linkedin",
+        "username": "zain-karsan",
+        "url": "www.linkedin.com/in/zain-karsan"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Rapid Liquid Print",
+      "position": "Mechanical Engineer",
+      "url": "https://www.rapidliquidprint.com/",
+      "startDate": "2023-06-01",
+      "endDate": "2023-08-025",
+      "summary": "Implemented a material dispensing system to supply two part silicone mixture to the nozzle of a high speed 3 axis machine. Designed and specified requisite parts and machined hardware to interface drive motor, gear pump, sensor, and fluid lines.",
+      "highlights": ["Pump Design"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Self Assembly Lab",
+      "position": "Research Assistant",
+      "url": "https://selfassemblylab.mit.edu/",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-01",
+      "summary": "Lead researcher developing novel metal additive process, Liquid Metal Printing, high speed large format aluminum printing, together with industry partners AMADA and AISIN",
+      "highlights": ["Metal Additive Manufacturing"]
+    },
+    {
+      "name": "MIT School of Architecture",
+      "position": "Teaching Fellow",
+      "url": "https://architecture.mit.edu/",
+      "startDate": "2018-06-01",
+      "endDate": "2021-09-01",
+      "summary": "Supported graduate courses How to Make (almost) Anything, Fine Furniture Making, How to Design, Aluminum Casting Workshop, Robotic Fabrication, taught roughly 350 students",
+      "highlights": ["Design, Fabrication, Robotics"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
+      "institution": "Eidgenössische Technische Hochschule, Zurich, Switzerland",
       "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "url": "https://www.ethz.ch/",
+      "area": "Civil Engineering and Architecture",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2023-09-01",
+      "endDate": "2027-09-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Planning and Decision Making for Autonomous Robots", "Programming for Robotics"]
+    },
+    {
+      "institution": "Massachusetts Institute of Technology, Cambridge, USA",
+      "location": "Cambridge, USA",
+      "url": "https://meche.mit.edu",
+      "area": "Mechanical Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-01",
+      "score": "10",
+      "courses": ["Precision Machine Design", "Manufacturing Processes", "Numerical Simulation"]
+    },
+    {
+      "institution": "Massachusetts Institute of Technology, Cambridge, USA",
+      "location": "Cambridge, USA",
+      "url": "https://architecture.mit.edu",
+      "area": "Computational Design",
+      "studyType": "Master of Science",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-01",
+      "score": "10",
+      "courses": ["Machine Learning Models & Applications", "Creative Machine Learning", "Design Intelligence", "Fundamentals of Product Design"]
+    },
+    {
+      "institution": "Massachusetts Institute of Technology, Cambridge, USA",
+      "location": "Cambridge, USA",
+      "url": "https://architecture.mit.edu",
+      "area": "Architecture",
+      "studyType": "Master",
+      "startDate": "2014-09-01",
+      "endDate": "2017-06-01",
+      "score": "10",
+      "courses": ["How to Make (almost) Anything", "Quarra Matter Fellowship", "Structural Optimization"]
     }
   ],
   "awards": [
@@ -69,8 +108,8 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
+      "name": "IPAF 1a1b3a3b",
+      "date": "2025-04-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
@@ -113,23 +152,22 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
+      "name": "Graph Based Disassembly Sequencing with Structural and Stability Constraints",
+      "publisher": "2025 EC3, proceedings of the 42nd European Conference on Computing in Construction",
+      "releaseDate": "2025-07-17",
       "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
+      "summary": ""    },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
+      "name": "Multi-Robotic System for Welded Steel Disassembly",
+      "publisher": "CAADRIA 2025: Architectural Informatics; proceedings of the 30th CAADRIA conference",
+      "releaseDate": "2025-03-29",
       "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
       "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
+      "name": "Liquid Metal Printing",
+      "publisher": "ACADIA 2023: Habits of the Anthropocene: proceedings of the 43rd annual conference of ACADIA",
+      "releaseDate": "2023-10-28",
       "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
       "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
@@ -148,53 +186,53 @@
         "Quantum Teleportation"
       ]
     }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
+  // ],
+  // "languages": [
+  //   {
+  //     "language": "German",
+  //     "fluency": "Native speaker",
+  //     "icon": ""
+  //   },
+  //   {
+  //     "language": "English",
+  //     "fluency": "Fluent",
+  //     "icon": ""
+  //   }
+  // ],
+  // "interests": [
+  //   {
+  //     "name": "Physics",
+  //     "icon": "fa-solid fa-tag",
+  //     "keywords": [
+  //       "Quantum Mechanics",
+  //       "Quantum Computing",
+  //       "Quantum Information",
+  //       "Quantum Cryptography",
+  //       "Quantum Communication",
+  //       "Quantum Teleportation"
+  //     ]
+  //   }
   ]
+  // "references": [
+  //   {
+  //     "name": "Professor John Doe",
+  //     "icon": "fa-solid fa-laptop",
+  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+  //   },
+  //   {
+  //     "name": "Professor John Doe",
+  //     "icon": "fa-solid fa-thumbtack",
+  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+  //   }
+  // ],
+  // "projects": [
+  //   {
+  //     "name": "Quantum Computing",
+  //     "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+  //     "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+  //     "startDate": "2018-01-01",
+  //     "endDate": "2018-01-01",
+  //     "url": "https://example.com"
+  //   }
+  // ]
 }

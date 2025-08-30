@@ -2,31 +2,37 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Zain Karsan
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: 21st August 1991
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+      year: ongoing
       description:
-        - Description 1.
-        - Description 2.
+        - Chair of Digital Building Technologies, Chair of Circular Engineering and Architecture
+        - Robotic Disassembly of Steel Structures
+    - title: Master of Science in Mechanical Engineering
+      institution: Massachusetts Institute of Technology, Cambridge, USA
+      year: 2023
+      description:
+        - Precision Machine Design, Manufacturing Processes, Numerical Simulation
+        - Computational Science and Engineering, Machine Learning Models & Applications
+    - title: Master of Science in Computational Design
+      institution: Massachusetts Institute of Technology, Cambridge, USA
+      year: 2023
+      description:
+        - Creative Machine Learning, Design Intelligence, Fundamentals of Product Design 
+        - Introduction to Robotics, Modelling with Machine Learning
+    - title: Master of Architecture
+      institution: Massachusetts Institute of Technology, Cambridge, USA
+      year: 2018
+      description:
+        - How to Make (almost) Anything, Quarra Matter Fellowship, Computational Design
+        - Structural Optimization, Fine Furniture Making
 
 - title: Experience
   type: time_table

@@ -5,7 +5,6 @@ description: 4.453 Creative Machine Learning
 img: assets/img/deskmate/banner_img.jpg
 importance: 2
 category: work
-giscus_comments: true
 ---
 
 <div class="row">

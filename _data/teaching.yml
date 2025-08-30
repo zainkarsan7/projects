@@ -16,6 +16,18 @@
   tags: ["fablab", "htm(a)a"]
   extra: "Introduces fundamental design principles as a way to demystify design and provide a basic introduction to all aspects of the process. Stimulates creativity, abstract thinking, representation, iteration, and design development. Equips students with skills to have more effective communication with designers, and develops their ability to apply the foundations of design to any discipline."
 
+- title: "Aluminum Casting Workshop"
+  year: 2020
+  description: "Graduate Workshop with Chris Dewart, Jen Obrien, Shah Paul"
+  tags: ["woodworking", "furniture making"]
+  extra: "Introduces basic woodworking, preparing sand-molds, and basic machining of cast parts. CNC machining, mold design and precision machining are communicated."
+
+- title: "Fine Furniture Making"
+  year: 2020
+  description: "Graduate Workshop with Chris Dewart"
+  tags: ["woodworking", "furniture making"]
+  extra: "Introduces fundamentals of woodworking, hand tools and machines to process rough cut lumber and produce finished furniture. The course begins with a dove tail joint, transitions to CNC machining stool tops with turned legs, and concludes with a furniture piece of the student's own design."
+
 - title: "Remote Making Fabrication Workshop"
   year: 2021
   description: "Machine building workshop"
