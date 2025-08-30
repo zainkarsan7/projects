@@ -421,12 +421,12 @@ ninja.data = [{
               window.location.href = "/projects/projects/tinyz.html";
             },},{id: "teaching-in-house",
           title: 'In House',
-          description: "Demo project about machine learning.",
+          description: "A digital fabrication studio during the pandemic",
           section: "Teaching",handler: () => {
               window.location.href = "/projects/teaching/inhouse.html";
             },},{id: "teaching-robotic-fabrication",
           title: 'Robotic Fabrication',
-          description: "4.453 Creative Machine Learning",
+          description: "Introduction to robotic fabrication",
           section: "Teaching",handler: () => {
               window.location.href = "/projects/teaching/robfab.html";
             },},{
