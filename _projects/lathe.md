@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Lathe
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+description: 2.72 Precision Machine Design
+img: assets/img/flex_tester/IMG_1436.jpg
 importance: 3
 category: work
 ---

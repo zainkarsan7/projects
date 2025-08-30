@@ -2,6 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
+redirect: https://zainkarsan7.github.io/htdaa
 nav: true
 nav_order: 1
 pagination:

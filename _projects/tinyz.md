@@ -19,50 +19,80 @@ A studio course was developed around this machine, in which students developed t
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/tinyz/kit_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/img/tinyz/longrun_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        Small batch production of the parts of the kit demonstrate the various capacities at the architecture shops, waterjetting, precision machining, and large format routing.
+        Several machine variations were designed, here is an extended X axis variant for 3D scanning driftwood.
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-    {% include video.liquid path="assets/img/tinyz/trailer_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}    
+        {% include video.liquid path="assets/img/tinyz/log_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        The 3D scan is machined later with a larger spindle.   
+    </div>
 </div>
-</div>
 
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/tinyz/tinyz_alum_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        This machine could be used manually, by actuating turnwheels by hand or with offline programming. This desktop machine could mill aluminum with conservative feeds and speeds.
+    </div>
 </div>
-```
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/tinyz/pumpkin_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        Multi-axis variants were easy to implement with additional stepper motors. MasterCAM was used for the CAM workflow, GCode was streamed over CNCjs. 
+    </div>
+</div>
 
-{% endraw %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/tinyz/clay_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        Different tooling options were experimented with, here a simple clay extruder.
+    </div>
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/tinyz/spindle_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        The original design used a hand-held carving tool from dremel for the spindle. This design shows the replacement with a 3D printed spindle driven by a small bldc. 
+    </div>
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/tinyz/4ax_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        Another 4 Axis variant of the machine which features an extended X axis for processing long round parts. The head and tailstock are adjustable along the length of the X axis.  
+    </div>
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/tinyz/cont_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        Drawing inspiration from thicknessers, use 2 sets of actuated roller assemblies to feed material back and forth theoretically infinitely extending the length of machineable part.   
+    </div>
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/tinyz/5ax_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        5 axis variant of the machine with a custom post developed in MasterCAM. The challenge to keep the B + C axes as small as possible meant integrating a custom spindle assembly with the body of the B axis.   
+    </div>
+</div>
