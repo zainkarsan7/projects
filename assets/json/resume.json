@@ -99,54 +99,58 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Vangaurd Award Runner Up",
+      "date": "2023-10-28",
+      "awarder": "ACADIA",
+      "summary": "Liquid Metal Printing"
+    },
+    {
+      "title": "Vangaurd Award",
+      "date": "2021-10-28",
+      "awarder": "ACADIA",
+      "summary": "TinyZ: A Desktop CNC Machine to Enable Remote Digital Fabrication"
+    },
+    {
+      "title": "Rotch Design Award",
+      "date": "2018-06-01",
+      "awarder": "MIT School of Architecture",
+      "summary": "for thesis entitled 'Taking Stock'"
     }
   ],
   "certificates": [
     {
       "name": "IPAF 1a1b3a3b",
-      "date": "2025-04-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "date": "2025-04-16",
+      "issuer": "TCFT",
+      "url": "https://www.tcft.ch/",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "TwinCAT3 Basic",
+      "date": "2025-11-15",
+      "issuer": "Bekhoff Automation",
+      "url": "https://www.beckhoff.com/",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Commissioning Robots",
+      "date": "2019-07-16",
+      "issuer": "Kuka",
+      "url": "https://www.kuka.com/en-ch/services/kuka-college",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "Programming 2",
+      "date": "2019-07-01",
+      "issuer": "Kuka",
+      "url": "https://www.kuka.com/en-ch/services/kuka-college",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Prototrak SMX",
+      "date": "2018-10-01",
+      "issuer": "TRAK Machine Tools",
+      "url": "https://www.southwesternindustries.com/",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
@@ -174,65 +178,58 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "C++",
+        "Python",
+        "C#",
+        "Matlab",
+        "ROS2",
+        "Git"
+      ]
+    },
+    {
+      "name": "CAD/Design",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Rhino Grasshopper",
+        "Revit",
+        "AutoCAD",
+        "KiCAD",
+        "Fusion360",
+        "Solidworks",
+        "Blender",
+        "Adobe Suite"
+      ]
+    },
+    {
+      "name": "CAM/Fabrication",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Mastercam",
+        "Robotmaster",
+        "Powermill",
+        "KRL"
+      ]
+    },
+    {
+      "name": "Machines",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "General Shop Tools",
+        "CNC Router",
+        "Lathe",
+        "Mill",
+        "Waterjet",
+        "Welder MIG/TIG",
+        "3D Printing",
+        "Laser Cutting"
       ]
     }
-  // ],
-  // "languages": [
-  //   {
-  //     "language": "German",
-  //     "fluency": "Native speaker",
-  //     "icon": ""
-  //   },
-  //   {
-  //     "language": "English",
-  //     "fluency": "Fluent",
-  //     "icon": ""
-  //   }
-  // ],
-  // "interests": [
-  //   {
-  //     "name": "Physics",
-  //     "icon": "fa-solid fa-tag",
-  //     "keywords": [
-  //       "Quantum Mechanics",
-  //       "Quantum Computing",
-  //       "Quantum Information",
-  //       "Quantum Cryptography",
-  //       "Quantum Communication",
-  //       "Quantum Teleportation"
-  //     ]
-  //   }
   ]
-  // "references": [
-  //   {
-  //     "name": "Professor John Doe",
-  //     "icon": "fa-solid fa-laptop",
-  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-  //   },
-  //   {
-  //     "name": "Professor John Doe",
-  //     "icon": "fa-solid fa-thumbtack",
-  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-  //   }
-  // ],
-  // "projects": [
-  //   {
-  //     "name": "Quantum Computing",
-  //     "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-  //     "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-  //     "startDate": "2018-01-01",
-  //     "endDate": "2018-01-01",
-  //     "url": "https://example.com"
-  //   }
-  // ]
 }
