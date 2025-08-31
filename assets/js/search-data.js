@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Courses taught as a technical instructor and teaching fellow",
+          description: "Primary instructor, syllabus author or co-instructor",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/teaching/";
