@@ -66,6 +66,17 @@
       "endDate": "2017-06-01",
       "score": "10",
       "courses": ["How to Make (almost) Anything", "Quarra Matter Fellowship", "Structural Optimization"]
+    },
+    {
+      "institution": "University of Waterloo, Cambridge, Canada",
+      "location": "Cambridge, Canada",
+      "url": "https://uwaterloo.ca/architecture/",
+      "area": "Architecture",
+      "studyType": "Bachelor of Architectural Studies, Co-operative Education",
+      "startDate": "2009-09-01",
+      "endDate": "2014-06-01",
+      "score": "10",
+      "courses": ["Building Construction", "Rome Study Abroad"]
     }
   ],
   "work": [
