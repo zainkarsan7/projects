@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: https://zainkarsan7.github.io/htdaa
-title: HTD(a)A
+title: PhD
 redirect: https://zainkarsan7.github.io/htdaa
 nav: true
 nav_order: 1

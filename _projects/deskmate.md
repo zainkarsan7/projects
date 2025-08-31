@@ -7,9 +7,14 @@ importance: 2
 category: work
 ---
 
-<div class="row">
+<!-- <div class="row">
 {% include video.liquid path="assets/img/deskmate/deskmate_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-</div>
+</div> -->
+
+<video autoplay muted loop playsinline controls="" width="100%">
+    <source src="../assets/img/deskmate/deskmate_out.mp4" type="video/mp4"/>
+</video>
+
 
 This project involved developing a simple drawing machine and a vision based ML pipeline to actuate the machine in response to user input. We typically interface with generative AI and its output through software, without a corresponding physical embodiement. This project proposed to embed an intelligent drawing assistant inside a commonly used tool for a designer, trace paper.  
 

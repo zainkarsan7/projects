@@ -11,9 +11,12 @@ related_publications: false
 This work was developed as a student researcher at the Self Assembly Lab as part of a dual degree in computational design and mechanical engineering. Liquid Metal Printing is a rapid, low cost, large scale and low resolution printing method involving rapid injection of molten metal into a bed of glass bead along a predetermined path. This work was done in collaboration with Kimball Kaiser, and focues on transitioning the existing machine which could melt and print with pewter, into a machine that could melt and print aluminum.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <!-- <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/img/lmp/process_snip_out.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
+    </div> -->
+    <video autoplay muted loop playsinline controls="" width="100%">
+    <source src="../assets/img/lmp/process_snip_out.mp4" type="video/mp4"/>
+</video>
 </div>
 
 <div class="row">

@@ -85,7 +85,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: HTD(a)A # blog_name will be displayed in your blog page
+blog_name: PhD # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: https://zainkarsan7.github.io/htdaa
 lsi: false # produce an index for related posts

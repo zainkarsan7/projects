@@ -6,7 +6,7 @@
     "email": "karsan@ibi.baug.ethz.ch",
     "phone": "076 630 37 24",
     "url": "zainkarsan7.github.io/projects",
-    "summary": "Trained in mechanical engineering and architecture, designing machines and processes for construction and manufacturing",
+    "summary": "Mechanical engineering, computational design and architecture, designing machines and processes for construction and manufacturing",
     "location": {
       "address": "Albisriederstrasse 106",
       "postalCode": "8003",
@@ -22,35 +22,6 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Rapid Liquid Print",
-      "position": "Mechanical Engineer",
-      "url": "https://www.rapidliquidprint.com/",
-      "startDate": "2023-06-01",
-      "endDate": "2023-08-025",
-      "summary": "Implemented a material dispensing system to supply two part silicone mixture to the nozzle of a high speed 3 axis machine. Designed and specified requisite parts and machined hardware to interface drive motor, gear pump, sensor, and fluid lines.",
-      "highlights": ["Pump Design"]
-    },
-    {
-      "name": "Self Assembly Lab",
-      "position": "Research Assistant",
-      "url": "https://selfassemblylab.mit.edu/",
-      "startDate": "2021-09-01",
-      "endDate": "2023-06-01",
-      "summary": "Lead researcher developing novel metal additive process, Liquid Metal Printing, high speed large format aluminum printing, together with industry partners AMADA and AISIN",
-      "highlights": ["Metal Additive Manufacturing"]
-    },
-    {
-      "name": "MIT School of Architecture",
-      "position": "Teaching Fellow",
-      "url": "https://architecture.mit.edu/",
-      "startDate": "2018-06-01",
-      "endDate": "2021-09-01",
-      "summary": "Supported graduate courses How to Make (almost) Anything, Fine Furniture Making, How to Design, Aluminum Casting Workshop, Robotic Fabrication, taught roughly 350 students",
-      "highlights": ["Design, Fabrication, Robotics"]
-    }
-  ],
   "education": [
     {
       "institution": "Eidgenössische Technische Hochschule, Zurich, Switzerland",
@@ -90,13 +61,43 @@
       "location": "Cambridge, USA",
       "url": "https://architecture.mit.edu",
       "area": "Architecture",
-      "studyType": "Master",
+      "studyType": "Master of Architecture",
       "startDate": "2014-09-01",
       "endDate": "2017-06-01",
       "score": "10",
       "courses": ["How to Make (almost) Anything", "Quarra Matter Fellowship", "Structural Optimization"]
     }
   ],
+  "work": [
+    {
+      "name": "Rapid Liquid Print",
+      "position": "Mechanical Engineer",
+      "url": "https://www.rapidliquidprint.com/",
+      "startDate": "2023-06-01",
+      "endDate": "2023-08-025",
+      "summary": "Implemented a material dispensing system to supply two part silicone mixture to the nozzle of a high speed 3 axis machine. Designed and specified requisite parts and machined hardware to interface drive motor, gear pump, sensor, and fluid lines.",
+      "highlights": ["Pump Design"]
+    },
+    {
+      "name": "Self Assembly Lab",
+      "position": "Research Assistant",
+      "url": "https://selfassemblylab.mit.edu/",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-01",
+      "summary": "Lead researcher developing novel metal additive process, Liquid Metal Printing, high speed large format aluminum printing, together with industry partners AMADA and AISIN",
+      "highlights": ["Metal Additive Manufacturing"]
+    },
+    {
+      "name": "MIT School of Architecture",
+      "position": "Teaching Fellow",
+      "url": "https://architecture.mit.edu/",
+      "startDate": "2018-06-01",
+      "endDate": "2021-09-01",
+      "summary": "Supported graduate courses How to Make (almost) Anything, Fine Furniture Making, How to Design, Aluminum Casting Workshop, Robotic Fabrication, taught roughly 350 students",
+      "highlights": ["Design, Fabrication, Robotics"]
+    }
+  ],
+  
   "awards": [
     {
       "title": "Vangaurd Award Runner Up",
