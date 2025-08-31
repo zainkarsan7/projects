@@ -5,7 +5,6 @@ description: A desktop milling machine, developed during the pandemic to support
 img: assets/img/tinyz/Pumpkin.jpg
 importance: 2
 category: work
-giscus_comments: true
 ---
 
 <div class="row">
