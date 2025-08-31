@@ -2,16 +2,16 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Courses taught as a technical instructor and teaching fellow
+description: Primary instructor, syllabus author or co-instructor
 nav: true
 nav_order: 6
 ---
 
 <div class="post">
-  <header class="post-header">
+  <!-- <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="desc">{{ page.subtitle }}</p>
-  </header>
+  </header> -->
 
   <article>
     <div class="table-responsive"> <!-- keeps it nice on small screens -->
