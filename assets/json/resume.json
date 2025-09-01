@@ -32,7 +32,7 @@
       "startDate": "2023-09-01",
       "endDate": "2027-09-01",
       "score": "10",
-      "courses": ["Planning and Decision Making for Autonomous Robots", "Programming for Robotics"]
+      "courses": ["151-0325-00L Planning and Decision Making for Autonomous Robots", "151-0662-00L Programming for Robotics"]
     },
     {
       "institution": "Massachusetts Institute of Technology, Cambridge, USA",
@@ -43,7 +43,7 @@
       "startDate": "2021-09-01",
       "endDate": "2023-06-01",
       "score": "10",
-      "courses": ["Precision Machine Design", "Manufacturing Processes", "Numerical Simulation"]
+      "courses": ["2.77 Precision Machine Design", "2.810 Manufacturing Processes", "2.720 Elements of Mechanical Design" ]
     },
     {
       "institution": "Massachusetts Institute of Technology, Cambridge, USA",
@@ -54,7 +54,7 @@
       "startDate": "2021-09-01",
       "endDate": "2023-06-01",
       "score": "10",
-      "courses": ["Machine Learning Models & Applications", "Creative Machine Learning", "Design Intelligence", "Fundamentals of Product Design"]
+      "courses": ["6.C51 Machine Learning Models & Applications", "4.453 Creative Machine Learning", "4.s12 Design Intelligence", "2.096 Numerical Simulation"]
     },
     {
       "institution": "Massachusetts Institute of Technology, Cambridge, USA",
@@ -65,7 +65,7 @@
       "startDate": "2014-09-01",
       "endDate": "2017-06-01",
       "score": "10",
-      "courses": ["How to Make (almost) Anything", "Quarra Matter Fellowship", "Structural Optimization"]
+      "courses": ["MAS.863 How to Make (almost) Anything", "Quarra Matter Fellowship", "4.450 Structural Optimization"]
     },
     {
       "institution": "University of Waterloo, Cambridge, Canada",
@@ -76,7 +76,7 @@
       "startDate": "2009-09-01",
       "endDate": "2014-06-01",
       "score": "10",
-      "courses": ["Building Construction", "Rome Study Abroad"]
+      "courses": ["A473 Building Construction", "A492 Rome Study Abroad"]
     }
   ],
   "work": [
