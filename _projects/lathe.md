@@ -35,7 +35,7 @@ This work was developed with a team of 5 for a course called Precision Machine D
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-         {% include figure.liquid loading="eager" path="assets/img/lathe/turning_steel.JPG" title="drilling" class="img-fluid rounded z-depth-1" %}
+         {% include figure.liquid loading="eager" path="assets/img/lathe/turning_steel.jpg" title="drilling" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         We also demonstrate our lathe with tailstock assembly was stiff enough to turn a long steel part. 
